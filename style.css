@@ -1,0 +1,201 @@
+body {
+  font-family: viga;
+  /* background-color: rgb(139, 221, 221); */
+}
+
+.parallax {
+  height: 30%;
+}
+
+.bg-light {
+  background-color: white !important;
+}
+
+.nav-link,
+.navbar-brand {
+  color: black !important;
+  text-transform: uppercase;
+  font-family: viga;
+  /* text-decoration: solid; */
+  /* background-color: white; */
+}
+
+.navbar {
+  background-image: url(img/full-bloom.png);
+  opacity: 0.9;
+}
+
+.navbar-brand {
+  font-weight: bolder;
+  transition: 0.8s;
+}
+
+.navbar-brand:hover {
+  transform: rotate(360deg);
+}
+
+#navbarNavAltMarkup a {
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+#navbarNavAltMarkup a:hover::after {
+  content: "";
+  display: block;
+  border: 1px solid black;
+}
+
+.center {
+  margin-top: 100px;
+}
+
+#home {
+  overflow: hidden;
+}
+
+.bg {
+  background-image: url(img/Coding-Becomes-Criminal.jpg);
+  background-size: cover;
+  width: 100%;
+  background-attachment: fixed;
+  padding-bottom: 70px;
+}
+
+.jumbotron {
+  margin-top: -75px;
+  padding-bottom: 200px;
+  /* background-image: url(img/Coding-Becomes-Criminal.jpg); */
+  background-color: white;
+  background-size: cover;
+  font-family: lobster;
+}
+
+.img-thumbnail {
+  box-shadow: 10px 5px 5px rgb(19, 19, 19);
+  border-radius: 50px;
+  width: 500px;
+  clip-path: circle(40%);
+}
+
+.pKiri,
+.pKanan {
+  opacity: 0;
+  transform: translate(-50px, 0);
+  transition: 1s;
+}
+
+.pKanan {
+  transform: translate(50px, 0);
+}
+
+.pKiri.Muncul,
+.pKanan.Muncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+#home p,
+#home h4 {
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+hr {
+  width: 100%;
+  border-top: 2px solid rgb(32, 32, 32);
+  padding-top: 30px;
+}
+
+#experience hr,
+#education hr,
+#skill hr,
+#contact hr {
+  width: 235px;
+  margin-left: 1px;
+}
+
+/* Isi Css Section Experience */
+#experience,
+#education,
+#contact {
+  margin-top: 30px;
+  margin-bottom: 200px;
+}
+
+.header {
+  font-family: viga;
+  text-transform: uppercase;
+  /* padding-top: -100px; */
+}
+
+.child,
+.body {
+  color: dimgrey;
+}
+
+/* Isi Css Section Education */
+/* #education {
+  margin-top: 200px;
+  margin-bottom: 200px;
+} */
+
+/* #contact .card-body {
+  margin-left: -100px;
+} */
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+.social-icons .social-icon {
+  display: flex;
+  background: #fff;
+  height: 50px;
+  width: 50px;
+  margin: 0 15px;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  /* box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7); */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 25px;
+  transition: 0.5s;
+  color: black;
+}
+
+.social-icons .social-icon:hover {
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+    -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+    0.5px 0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+  /* border: 0px solid rgba(0, 0, 0, 0.1); */
+  transform: translateY(2px);
+}
+
+a #copyright {
+  color: black;
+}
+
+@media (min-width: 992px) {
+  .nav-link {
+    margin-right: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  span .navbar-toggler-icon {
+    margin-right: 30px;
+    color: black;
+  }
+  bg {
+    background-image: url(img/Coding-Becomes-Criminal.jpg);
+    background-size: cover;
+    width: 50%;
+    background-attachment: fixed;
+    padding-bottom: 70px;
+  }
+}
