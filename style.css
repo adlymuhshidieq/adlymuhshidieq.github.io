@@ -3,6 +3,11 @@ body {
   /* background-color: rgb(139, 221, 221); */
 }
 
+.jajake {
+  width: 700px;
+  height: 400px;
+}
+
 .parallax {
   height: 30%;
 }
@@ -191,6 +196,7 @@ a #copyright {
     margin-right: 30px;
     color: black;
   }
+
   bg {
     background-image: url(img/Coding-Becomes-Criminal.jpg);
     background-size: cover;
